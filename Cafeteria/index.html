@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  table, th, td {
+   border: 1px solid black;
+}
+</style>
+	<title>Cafeteria</title>
+</head>
+<body>
+<h1 align="center">Cafeteria</h1>
+<p>
+	<h2>Menu</h2>
+	<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="da casa.jpg">
+    <img src="img\da casa.jpg" alt="" width="600" height="300">
+  </a>
+  <div class="desc">Mistura da casa</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="basico.jpg">
+    <img src="img\basico.jpg" alt="" width="600" height="300">
+  </a>
+  <div class="desc">Café Arábico com leite</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="capuccino.jpg">
+    <img src="img\capuccino.jpg" alt="" width="600" height="300">
+  </a>
+  <div class="desc">Cappuccino</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="chai.jpg">
+    <img src="img\chai.jpg" alt="" width="600" height="300">
+  </a>
+  <div class="desc">Chá Chai</div>
+</div>
+
+<p>
+<form action="/action_page.php" align="left">
+  <label for="fname">Receita:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Unidades:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+</p>
+
+</body>
+</html><table style="width:100%">
+  <tr>
+    <th>Receita</th>
+    <th>Descriçao</th> 
+    <th>Preço</th>
+  </tr>
+  <tr>
+    <td>Mistura de Casa</td>
+    <td>Expresso, leite fervido e xarope de chocolate</td>
+    <td>R$ 2,35</td>
+  </tr>
+  <tr>
+    <td>Café arábico com leite</td>
+    <td>Uma mistura de expresso, leite fervido e espuma</td>
+    <td>R$ 1,89</td>
+  </tr>
+  <tr>
+    <td>Cappucino</td>
+    <td>Uma bebida condimentada com chá preto, especiarias, leite e mel</td>
+    <td>R$ 1,85</td>
+  </tr>
+  <tr>
+     <td>Chá Chai</td>
+     <td>Uma mistura suave e delicada de cafés do México, Bolívia e Guatemala</td>
+     <td>R$ 2,35</td>
+</table>
